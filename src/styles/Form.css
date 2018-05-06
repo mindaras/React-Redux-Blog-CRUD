@@ -1,0 +1,39 @@
+.form
+{
+  max-width: 400px;
+  width: 100%;
+}
+.form__input
+{
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  height: 35px;
+  border: 1px solid #000;
+  outline: none;
+  resize: none;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+.form__input--textarea
+{
+  height: 200px;
+}
+.form__submit
+{
+  outline: none;
+  border-radius: 0;
+  border: 1px solid #000;
+  width: 150px;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: ease .3s;
+  cursor: pointer;
+}
+.form__submit:hover
+{
+  background-color: #000;
+  color: #fff;
+}

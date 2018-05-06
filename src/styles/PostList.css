@@ -1,0 +1,20 @@
+.post-list
+{
+  max-width: 400px;
+  width: 100%;
+}
+.post-list li:not(:last-of-type)
+{
+  margin-bottom: 5px;
+}
+.post-list__item
+{
+  display: block;
+  padding: 10px 15px;
+  border: 1px solid #efefef;
+  transition: ease .3s;
+}
+.post-list__item:hover
+{
+  background-color: #efefef;
+}

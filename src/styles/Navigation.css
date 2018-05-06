@@ -1,0 +1,8 @@
+.navigation
+{
+  margin-bottom: 40px;
+}
+.navigation__link:not(:last-of-type)
+{
+  margin-right: 25px;
+}
